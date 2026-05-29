@@ -1,0 +1,6 @@
+status,n_invoices,gross_amount,net_revenue
+paid,58155,5219931.24,5121317.84
+past_due,3004,288873.60,283641.91
+written_off,1317,118259.00,0.00
+failed,796,77052.56,0.00
+refunded,70,4539.68,-2151.61
