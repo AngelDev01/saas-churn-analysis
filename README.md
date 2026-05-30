@@ -139,7 +139,7 @@ Organic acquisition costs $50 CAC and generates $69 avg MRR — a 1.39 MRR-to-CA
 Baseline retention probability for an average active account is **97.4%** per observation period. Average forecast churn across the active portfolio is 6.6% annualized. The business is not in a churn crisis — it has a concentrated risk problem in a small segment and a revenue leakage problem in invoicing. **Business metric:** Baseline retention probability from logistic regression intercept. **Quantified value:** 97.4% baseline retention; 6.6% average forecast churn; 2,092 of 2,558 active accounts (81.8%) are low-risk.
 
 <p align="center">
-  <img src="/assets/churn_rate_by_plan_and_billing_period.png" width="65%"/>
+  <img src="/assets/churn_rate_by_plan_and_billing_period.png" width="15%"/>
 </p>
 
 ---
