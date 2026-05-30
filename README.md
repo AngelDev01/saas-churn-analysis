@@ -77,7 +77,10 @@ Total MRR churn rate is 1.84% in March 2024, composed of $3,869 lost to full can
 - **Insight 3: Revenue leakage from failed invoices exceeds the MRR of the entire high-risk account segment.**
 $118K is permanently written off and $77K failed with no recovery, totaling $195K in lost gross revenue. An additional $289K sits past due. This is an accounts receivable operations problem — the money was earned but not collected. **Business metric:** Revenue by invoice status. **Quantified value:** $195K permanently lost (3.7% of $5.2M gross revenue collected); $289K past due and at risk.
 
-![net retention kpi](assets/net_mrr_retention.png)
+<img src="assets/net_mrr_retention.png" 
+     alt="net retention kpi" 
+     align="right" 
+     width="400" />
 ![value at risk kpi](assets/value_at_risk.png)
 ![revenue leakage kpi](assets/revenue_leakage.png)
 
