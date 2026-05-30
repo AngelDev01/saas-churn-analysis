@@ -81,8 +81,14 @@ $118K is permanently written off and $77K failed with no recovery, totaling $195
      alt="net retention kpi" 
      align="right" 
      width="400" />
-![value at risk kpi](assets/value_at_risk.png)
-![revenue leakage kpi](assets/revenue_leakage.png)
+<img src="assets/value_at_risk.png" 
+     alt="value at risk kpi" 
+     align="right" 
+     width="400" />
+<img src="assets/revenue_leakage.png" 
+     alt="revenue leakage kpi" 
+     align="right" 
+     width="400" />
 
 
 ---
