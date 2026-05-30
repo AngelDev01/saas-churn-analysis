@@ -17,7 +17,7 @@ Insights and recommendations are provided on the following key areas:
 - **Customer Risk Segmentation** — Current portfolio risk distribution and intervention priorities
 - **Acquisition & Monetization** — Channel ROI, plan mix, upgrade and downgrade flow
 
-SQL queries for data preparation and churn metrics: **saas-churn-analysis/sql**
+SQL queries for data preparation and churn metrics: **/saas-churn-analysis/sql**
 
 Python analysis pipeline: **[GitHub Link — Placeholder]**
 
