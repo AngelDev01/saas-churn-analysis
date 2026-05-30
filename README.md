@@ -19,7 +19,7 @@ Insights and recommendations are provided on the following key areas:
 
 SQL queries for data preparation and churn metrics: [SQL Queries](https://github.com/AngelDev01/saas-churn-analysis/tree/043e171c2f3da03f1fa66bf3e2c73543888493dc/sql)
 
-Python analysis pipeline: **[GitHub Link — Placeholder]**
+Python analysis pipeline: [Python Scripts](./python)
 
 [DASHBOARD PLACEHOLDER — add link once built]
 
