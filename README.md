@@ -17,7 +17,7 @@ Insights and recommendations are provided on the following key areas:
 - **Customer Risk Segmentation** — Current portfolio risk distribution and intervention priorities
 - **Acquisition & Monetization** — Channel ROI, plan mix, upgrade and downgrade flow
 
-SQL queries for data preparation and churn metrics: **[GitHub Link — Placeholder]**
+SQL queries for data preparation and churn metrics: **saas-churn-analysis/sql**
 
 Python analysis pipeline: **[GitHub Link — Placeholder]**
 
@@ -27,15 +27,15 @@ Python analysis pipeline: **[GitHub Link — Placeholder]**
 
 ## Data Structure & Initial Checks
 
-The analysis draws from a normalized schema in the `churn_analysis` schema comprising four tables totaling **[PLACEHOLDER — total record count across all four tables]**:
+The analysis draws from a normalized schema in the `churn_analysis` schema comprising four tables totaling **630,632**:
 
 [ERD / SCHEMA DIAGRAM PLACEHOLDER]
 
 | Table | Rows | Description |
 |---|---|---|
 | `accounts` | 3,000 | One row per customer — signup date, channel, plan, region, CAC |
-| `subscriptions` | [PLACEHOLDER] | Billing periods with plan, MRR, status, and churn dates |
-| `events` | [PLACEHOLDER] | Raw product events — logins, report runs, exports, team invites, support tickets |
+| `subscriptions` | 13,819 | Billing periods with plan, MRR, status, and churn dates |
+| `events` | 550,471 | Raw product events — logins, report runs, exports, team invites, support tickets |
 | `invoices` | 63,342 | Invoice-level revenue with payment status and discounts |
 
 **Data Quality Notes**
@@ -59,8 +59,6 @@ The portfolio is fundamentally healthy: net MRR retention is **126%**, meaning e
 2. **Churn risk is behavioral, not demographic.** Accounts with fewer than 2 logins and fewer than 3 report runs in the first 28 days churn at 4–8x the baseline. Early activation is the clearest intervention point in the data.
 
 3. **Revenue leakage from failed invoices exceeds the MRR held by the entire high-risk segment.** The $195K in failed and written-off invoices is a recoverable operations problem, not a churn problem — and it is larger than the $27K MRR at risk from the 135 highest-churn-probability accounts.
-
-[DASHBOARD OVERVIEW IMAGE PLACEHOLDER]
 
 ---
 
