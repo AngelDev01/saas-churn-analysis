@@ -98,9 +98,9 @@ Accounts with 0–1 logins in 28 days churn at **12.0%** — 4.7x the rate of ac
 Export activity dropping off predicts churn with a retention impact of +0.66pp, compared to +0.48pp for days since login. Power users who stop exporting have likely stopped deriving value before they visibly disengage from the product. **Business metric:** Days since last feature export vs. days since last login. **Quantified value:** Export dormancy impact +0.66pp vs. login dormancy +0.48pp.
 
 <p align="center">
-  <img src="/assets/behavioral_churn_thresholds.png" width="48%"/>
+  <img src="/assets/behavioral_churn_thresholds.png" width="28%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/assets/retention_impact.png" width="48%"/>
+  <img src="/assets/retention_impact.png" width="28%"/>
 </p>
 
 ---
