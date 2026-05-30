@@ -98,9 +98,9 @@ Accounts with 0–1 logins in 28 days churn at **12.0%** — 4.7x the rate of ac
 Export activity dropping off predicts churn with a retention impact of +0.66pp, compared to +0.48pp for days since login. Power users who stop exporting have likely stopped deriving value before they visibly disengage from the product. **Business metric:** Days since last feature export vs. days since last login. **Quantified value:** Export dormancy impact +0.66pp vs. login dormancy +0.48pp.
 
 <p align="center">
-  <img src="/assets/behavioral_churn_thresholds.png" width="35%"/>
+  <img src="/assets/behavioral_churn_thresholds.png" width="33%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/assets/retention_impact.png" width="28%"/>
+  <img src="/assets/retention_impact.png" width="26%"/>
 </p>
 
 ---
@@ -120,9 +120,9 @@ The 10 accounts with highest value at risk have churn probabilities between 1.9%
 Churn rate is stable at 4.5–5.5% through months 0–12, then jumps to 7.1% at month 13 and 8.6% at month 14. The month 13 reading is based on 240 observations and is reliable. This pattern indicates annual customers deciding not to renew, which is a separate behavioral signal from monthly churn and warrants a dedicated retention touchpoint at the 11-month mark. **Business metric:** Churn rate by tenure month. **Quantified value:** Month 0–12 avg ~5.0%; month 13: 7.1% (n=240); month 14: 8.6% (n=58, treat with caution).
 
 <p align="center">
-  <img src="/assets/risk_tier_distribution.png" width="28%"/>
+  <img src="/assets/risk_tier_distribution.png" width="30%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/mrr_vs_churn_probability.png" width="28%"/>
+  <img src="assets/mrr_vs_churn_probability.png" width="30%"/>
 </p>
 
 ---
