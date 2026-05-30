@@ -79,7 +79,7 @@ $118K is permanently written off and $77K failed with no recovery, totaling $195
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
   <img src="assets/net_mrr_retention.png" alt="Net MRR Retention" width="300" />
-  <img src="assets/value_at_risk.png" alt="Value at Risk" width="300" />
+  <img src="assets/value_at_risk.png" alt="Value at Risk" width="305" />
   <img src="assets/revenue_leakage.png" alt="Revenue Leakage" width="300" />
 </div>
 
